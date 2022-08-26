@@ -1,0 +1,125 @@
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.exe
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.deps.json
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.runtimeconfig.json
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\ref\Hotel.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.pdb
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\Desktop\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.AssemblyReference.cache
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddOption.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmEspaceAdmin.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmEspaceAssociate.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmGuid.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmLogin.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmModifierOption.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmOption.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.GenerateResource.cache
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.AssemblyInfoInputs.cache
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.AssemblyInfo.cs
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.CopyComplete
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.dll
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\ref\Hotel.dll
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.pdb
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.genruntimeconfig.cache
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmChambre.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUser.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.Properties.Resources.resources
+C:\Users\asus\Desktop\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddUser.resources
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.exe
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.deps.json
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.runtimeconfig.json
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\ref\Hotel.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.pdb
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\Pictures\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.AssemblyReference.cache
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddOption.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddUser.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmChambre.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmEspaceAdmin.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmGuid.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmLogin.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmOption.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUser.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.Properties.Resources.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.GenerateResource.cache
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.AssemblyInfoInputs.cache
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.AssemblyInfo.cs
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.CopyComplete
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.dll
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\ref\Hotel.dll
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.pdb
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.genruntimeconfig.cache
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateUser.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmResetPass.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateOption.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddGuid.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateGuid.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddChambre.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateChambre.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddClient.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmClients.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmEspaceUser.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmOffre.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmReservation.resources
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateClient.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.exe
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.deps.json
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.runtimeconfig.json
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\ref\Hotel.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\Hotel.pdb
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.AssemblyReference.cache
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddChambre.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddClient.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddGuid.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddOption.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmAddUser.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmChambre.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmClients.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmEspaceAdmin.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmEspaceUser.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmGuid.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmLogin.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmOffre.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmOption.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmReservation.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmResetPass.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateChambre.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateClient.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateGuid.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateOption.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUpdateUser.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmUser.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.Properties.Resources.resources
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.GenerateResource.cache
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.AssemblyInfoInputs.cache
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.AssemblyInfo.cs
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.CoreCompileInputs.cache
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.csproj.CopyComplete
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\ref\Hotel.dll
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.pdb
+C:\Users\asus\Pictures\Version 7\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.genruntimeconfig.cache
+C:\Users\asus\Pictures\Hotel\Hotel\obj\Debug\net6.0-windows\Hotel.FrmResult.resources
