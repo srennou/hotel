@@ -1,0 +1,179 @@
+create table CHAMBRE 
+(
+   NUM_CHAMBRE          INTEGER     not null,
+   ID_CHAMBRE           INTEGER     not null,
+   TELCHAM              INTEGER,
+   constraint PK_CHAMBRE primary key (NUM_CHAMBRE)
+);
+
+
+create table CLIENT 
+(
+   CIN            	VARCHAR(30) NOT NULL,
+   NOM                  VARCHAR(50) NOT NULL,
+   PRENOM               VARCHAR(50) NOT NULL,
+   ADRESSE              VARCHAR(50) NOT NULL,
+   EMAIL                VARCHAR(200) UNIQUE NOT NULL,
+   TELEPHONE            VARCHAR(30) NOT NULL,
+   SEXE                 VARCHAR(20),
+   constraint PK_CLIENT primary key (CIN)
+);
+
+create table GUID 
+(
+   ID_GUID              INTEGER  IDENTITY(1,1)    not null,
+   ID_OPTION            INTEGER              not null,
+   NOM                  VARCHAR(50) NOT NULL,
+   PRENOM               VARCHAR(50) NOT NULL,
+   EMAIL                VARCHAR(200) UNIQUE,
+   TELEPHONE            VARCHAR(30),
+   constraint PK_GUID primary key (ID_GUID)
+);
+
+create table "OPTION" 
+(
+   ID_OPTION            INTEGER  IDENTITY(1,1)            not null,
+   NOM_OPTION           VARCHAR(50) NOT NULL,
+   PRIX_OPTION          FLOAT NOT NULL,
+   constraint PK_OPTION primary key (ID_OPTION)
+);
+
+
+create table OPTION_RESERVATION 
+(
+   ID_RESERVATION       INTEGER              not null,
+   ID_OPTION            INTEGER              not null,
+   constraint PK_OPTION_RESERVATION primary key (ID_RESERVATION, ID_OPTION)
+);
+
+
+create table RESERVATION 
+(
+   ID_RESERVATION       INTEGER  IDENTITY(1,1)            not null,
+   CIN            	VARCHAR(30)              not null,
+   NUM_CHAMBRE          INTEGER              not null,
+   DATE_DEBUT           DATE,
+   DATE_FIN             DATE,
+   PRIX			FLOAT	NOT NULL,
+   constraint PK_RESERVATION primary key (ID_RESERVATION)
+);
+
+
+
+create table TYPE_CHAMBRE 
+(
+   ID_CHAMBRE           INTEGER       not null,
+   NOM_CHAMBRE          VARCHAR(50) NOT NULL,
+   PRIX                 FLOAT,
+   constraint PK_TYPE_CHAMBRE primary key (ID_CHAMBRE)
+);
+
+
+create table "USER" 
+(
+   ID_USER              INTEGER IDENTITY(1,1) NOT NULL,
+   NOM                  VARCHAR(50) NOT NULL,
+   PRENOM               VARCHAR(50) NOT NULL,
+   EMAIL                VARCHAR(200) UNIQUE NOT NULL,
+   PASSWORD		VARCHAR(200) NOT NULL,	
+   TYPE                 VARCHAR(20),
+   IS_ACTIVE            BIT,
+   TELEPHONE            VARCHAR(30),
+   constraint PK_USER primary key (ID_USER)
+);
+
+
+alter table CHAMBRE
+   add constraint FK_CHAMBRE_ASSOCIATI_TYPE_CHA foreign key (ID_CHAMBRE)
+      references TYPE_CHAMBRE (ID_CHAMBRE);
+
+alter table GUID
+   add constraint FK_GUID_ASSOCIATI_OPTION foreign key (ID_OPTION)
+      references "OPTION" (ID_OPTION);
+
+alter table OPTION_RESERVATION
+   add constraint FK_OPTION_R_OPTION_RE_RESERVAT foreign key (ID_RESERVATION)
+      references RESERVATION (ID_RESERVATION);
+
+alter table OPTION_RESERVATION
+   add constraint FK_OPTION_R_OPTION_RE_OPTION foreign key (ID_OPTION)
+      references "OPTION" (ID_OPTION);
+
+alter table RESERVATION
+   add constraint FK_RESERVAT_ASSOCIATI_CLIENT foreign key (CIN)
+      references CLIENT (CIN);
+
+alter table RESERVATION
+   add constraint FK_RESERVAT_ASSOCIATI_CHAMBRE foreign key (NUM_CHAMBRE)
+      references CHAMBRE (NUM_CHAMBRE);
+
+INSERT INTO [USER](nom, prenom, email, password, type, is_active, telephone) VALUES('admin', 'admin', 'admin', '123', 'admin', 1, '911');
+INSERT INTO [USER](nom, prenom, email, password, type, is_active, telephone) VALUES('user', 'user', 'user', '123', 'user', 1, '911');
+INSERT INTO [USER](nom, prenom, email, password, type, is_active, telephone) VALUES('Bensaid', 'Anas', 'anas@ze.n', '123', 'admin', 1, '0636773688');
+
+insert into type_chambre values(1, 'BIG', 999.99);
+insert into type_chambre values (2, 'SMALL', 499.99);
+insert into type_chambre values (3, 'MEDIUM', 699.99);
+insert into chambre values (10, 2, '9010');
+insert into chambre values (11, 2, '9011');
+insert into chambre values (12, 2, '9012');
+insert into chambre values (30, 3, '9030');
+insert into chambre values (31, 3, '9031');
+insert into chambre values (32, 3, '9032');
+insert into chambre values (60, 1, '9060');
+insert into chambre values (61, 1, '9061');
+insert into chambre values (62, 1, '9062');
+
+
+CREATE VIEW vue_chambres
+AS
+(
+	SELECT num_chambre AS Nombre, nom_chambre AS Type, prix AS Prix, telcham AS Telephone
+	FROM chambre c, type_chambre t
+	WHERE c.id_chambre = t.id_chambre
+)
+
+CREATE VIEW vue_reservation
+AS
+(
+	SELECT r.CIN, CONCAT(c.nom, c.prenom) AS 'Nom Complet', r.num_chambre AS 'Le chambre',
+		DATEDIFF(day, r.date_debut, r.date_fin) AS Periode,
+		r.prix AS 'Prix de chambre par nuit'
+	FROM reservation r, client c
+	WHERE r.CIN = c.CIN
+)
+
+CREATE VIEW vue_expensive_options
+AS
+(
+	SELECT *
+	FROM [OPTION]
+	WHERE prix_option > 200
+)
+
+CREATE OR ALTER PROC proccham(@dd DATE, @df DATE)
+AS
+	SELECT DISTINCT c.*
+	FROM chambre c, reservation r
+	WHERE c.num_chambre = r.num_chambre
+		AND (r.date_fin < GETDATE() OR DATEDIFF(dd, GETDATE(), r.date_debut) < DATEDIFF(dd, @dd, @df))
+
+-- EXEC proccham '2022-05-01', '2022-09-17'
+
+CREATE PROCEDURE dbo.spClient_GetByCIN
+	@CIN VARCHAR(50)
+AS
+BEGIN
+	SELECT CIN, nom, prenom, adresse, email
+	FROM dbo.client
+	WHERE CIN = @CIN
+END
+
+CREATE PROCEDURE dbo.spUser_GetByNom
+	@nom VARCHAR(50)
+AS
+BEGIN
+	SELECT nom, prenom, email
+	FROM dbo.[USER]
+	WHERE nom = @nom
+END

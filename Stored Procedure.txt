@@ -1,0 +1,26 @@
+CREATE OR ALTER PROC proccham(@dd DATE, @df DATE)
+AS
+	SELECT DISTINCT c.*
+	FROM chambre c, reservation r
+	WHERE c.num_chambre = r.num_chambre
+		AND (r.date_fin < GETDATE() OR DATEDIFF(dd, GETDATE(), r.date_debut) < DATEDIFF(dd, @dd, @df))
+
+-- EXEC proccham '2022-05-01', '2022-09-17'
+
+CREATE PROCEDURE dbo.spClient_GetByCIN
+	@CIN VARCHAR(50)
+AS
+BEGIN
+	SELECT CIN, nom, prenom, adresse, email
+	FROM dbo.client
+	WHERE CIN = @CIN
+END
+
+CREATE PROCEDURE dbo.spUser_GetByNom
+	@nom VARCHAR(50)
+AS
+BEGIN
+	SELECT nom, prenom, email
+	FROM dbo.[USER]
+	WHERE nom = @nom
+END

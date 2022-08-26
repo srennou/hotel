@@ -1,0 +1,25 @@
+CREATE VIEW vue_chambres
+AS
+(
+	SELECT num_chambre AS Nombre, nom_chambre AS Type, prix AS Prix, telcham AS Telephone
+	FROM chambre c, type_chambre t
+	WHERE c.id_chambre = t.id_chambre
+)
+
+CREATE VIEW vue_reservation
+AS
+(
+	SELECT r.CIN, CONCAT(c.nom, c.prenom) AS 'Nom Complet', r.num_chambre AS 'Le chambre',
+		DATEDIFF(day, r.date_debut, r.date_fin) AS Periode,
+		r.prix AS 'Prix de chambre par nuit'
+	FROM reservation r, client c
+	WHERE r.CIN = c.CIN
+)
+
+CREATE VIEW vue_expensive_options
+AS
+(
+	SELECT *
+	FROM [OPTION]
+	WHERE prix_option > 200
+)
